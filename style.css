@@ -1,0 +1,38 @@
+*{
+  box-sizing:border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #212121
+}
+
+div.grid-item{
+  width:50%;
+    padding:10px;
+}
+
+div.grid-item img{
+  width:100%;
+  border-radius:20px;
+  transition:all 0.4s;
+}
+
+div.grid-item img:hover {
+  border-radius:35px;
+  opacity:0.5;
+  
+}
+
+
+h1{
+  color:white;
+     font-family: "Montserrat", sans-serif;
+    text-align:center;
+}
+
+p{
+  color:white;
+    text-align:center;
+}
